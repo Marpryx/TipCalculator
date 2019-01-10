@@ -1,0 +1,185 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: #07baa9;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #07baa9, #123331);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #07baa9, #123331);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#mainContainer {
+  height: 560px;
+  width: 390px;
+  margin: 60px auto;
+  text-align:center;
+  background: #eaf7f6;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 20px;
+  font-size: 20px;
+  border-style: dotted;
+  border-width: 2px;
+}
+
+h1 {
+  background: #023a37;
+  color: #e1f2f1;
+  margin: 0;
+  padding: 10px 100px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: normal;
+  border-radius: 20px;
+  font-family: "Tahoma", Geneva, sans-serif;
+}
+
+
+form input[type="text"] {
+  width=100px;
+}
+
+input {
+  padding-left: 20px;
+}
+
+#billAmt {
+  font-size: 14px;
+  color: #red;
+  background-color: #f7f7f7;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  border-radius: 10px;
+}
+
+#billAmt:focus {
+  background: #c4efef;
+  border: 3px solid #173535;
+  outline: none;
+}
+
+#friendsAmt {
+  width: 70%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  color: #red;
+  background-color: #f7f7f7;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+#friendsAmt:focus{
+  background: #c4efef;
+  border: 3px solid #173535;
+  outline: none;
+}
+
+.dollarSign {
+  display: inline;
+}
+
+#service {
+  padding: 13px 13px 20px 20px;
+  margin-left: 20px;
+  font-size: 18px;
+  margin-bottom:15px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#service:focus{
+  background: #c4efef;
+  border: 3px solid #173535;
+}
+
+#buttonDiv{
+display: block;
+
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px auto;
+  margin-right: 3%;
+  background: #8c2186;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+  font-family: "Tahoma", Geneva, sans-serif;
+ 
+}
+
+button:hover {
+  background: #6d336a;
+  border-bottom-color: #111;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#totalTip, #totalAmt {
+  margin-top: 15px;
+  text-align: center;
+  border:dotted;
+  border-width: 2px;
+  border-radius: 20px;
+  border-color:#023a37;
+  width:45%;
+float:left;
+  margin-left: auto;
+  margin-right: auto;
+  background: #c4efef;
+   margin-top:15px;
+   margin-left:2%;
+}
+
+#totalTip:before {
+  content: "Tip amount:";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+
+#totalTip sup, #totalAmt sup {
+  font-size: 20px;
+  top: -18px;
+}
+
+#totalTip small, #totalAmt small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+
+
+#totalAmt:before {
+  content: "Total Amt:";
+  padding-left : 20px; 
+  font-size: 20px;
+  font-weight: bold;
+
+  text-transform: uppercase;
+}
+
+#tip, #amtPlusTip{
+font-size: 30px;
+}
+
+
+footer{
+  margin-top:-3px;
+  background: #023a37;
+  color: #e1f2f1;
+  padding: 10px 100px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: normal;
+  border-radius: 20px;
+  font-family: "Tahoma", Geneva, sans-serif;
+}
